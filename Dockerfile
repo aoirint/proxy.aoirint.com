@@ -8,5 +8,5 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-#CMD [ "/usr/sbin/squid", "-sYC" ]
+CMD [ "/usr/sbin/squid", "-N" ]
 

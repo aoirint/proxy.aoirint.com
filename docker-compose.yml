@@ -4,4 +4,6 @@ services:
     build: .
     ports:
       - '0.0.0.0:3128:3128'
+    volumes:
+      - './squid.conf:/etc/squid/squid.conf'
 
