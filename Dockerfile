@@ -1,7 +1,7 @@
-FROM ubuntu:focal
+FROM ubuntu:jammy
 
 ARG DEBIAN_FRONTEND=noninteractive
-ARG SQUID_VERSION=4.10-1ubuntu1.7
+ARG SQUID_VERSION=5.2-1ubuntu4.2
 
 RUN apt-get update && \
     apt-get install -y \
